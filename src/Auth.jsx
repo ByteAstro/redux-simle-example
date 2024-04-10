@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { authActions } from './store/store';
+import { authActions } from './store/authSlice';
 
 const Auth = () => {
     const dispatch = useDispatch();

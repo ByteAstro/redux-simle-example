@@ -1,6 +1,7 @@
+import React from 'react'
 import { useSelector, useDispatch, connect } from 'react-redux'
 import './App.css'
-import { counterActions } from './store/store'
+import { counterActions } from './store/counterSlice'
 import Auth from './Auth';
 
 function App() {
